@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB67DE4820FA112F004FADFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67DE4720FA112F004FADFB /* AppDelegate.swift */; };
+		FB67DE4A20FA112F004FADFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67DE4920FA112F004FADFB /* ViewController.swift */; };
+		FB67DE4D20FA112F004FADFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB67DE4B20FA112F004FADFB /* Main.storyboard */; };
+		FB67DE4F20FA1130004FADFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB67DE4E20FA1130004FADFB /* Assets.xcassets */; };
+		FB67DE5220FA1130004FADFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB67DE5020FA1130004FADFB /* LaunchScreen.storyboard */; };
+		FB67DE5D20FA1130004FADFB /* ios_swift_physicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67DE5C20FA1130004FADFB /* ios_swift_physicsTests.swift */; };
+		FB67DE6820FA1130004FADFB /* ios_swift_physicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67DE6720FA1130004FADFB /* ios_swift_physicsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB67DE5920FA1130004FADFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB67DE3C20FA112F004FADFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB67DE4320FA112F004FADFB;
+			remoteInfo = "ios-swift-physics";
+		};
+		FB67DE6420FA1130004FADFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB67DE3C20FA112F004FADFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB67DE4320FA112F004FADFB;
+			remoteInfo = "ios-swift-physics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB67DE4420FA112F004FADFB /* ios-swift-physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-swift-physics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB67DE4720FA112F004FADFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB67DE4920FA112F004FADFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB67DE4C20FA112F004FADFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB67DE4E20FA1130004FADFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB67DE5120FA1130004FADFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB67DE5320FA1130004FADFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB67DE5820FA1130004FADFB /* ios-swift-physicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-swift-physicsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB67DE5C20FA1130004FADFB /* ios_swift_physicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_swift_physicsTests.swift; sourceTree = "<group>"; };
+		FB67DE5E20FA1130004FADFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB67DE6320FA1130004FADFB /* ios-swift-physicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-swift-physicsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB67DE6720FA1130004FADFB /* ios_swift_physicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_swift_physicsUITests.swift; sourceTree = "<group>"; };
+		FB67DE6920FA1130004FADFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB67DE4120FA112F004FADFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67DE5520FA1130004FADFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67DE6020FA1130004FADFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB67DE3B20FA112F004FADFB = {
+			isa = PBXGroup;
+			children = (
+				FB67DE4620FA112F004FADFB /* ios-swift-physics */,
+				FB67DE5B20FA1130004FADFB /* ios-swift-physicsTests */,
+				FB67DE6620FA1130004FADFB /* ios-swift-physicsUITests */,
+				FB67DE4520FA112F004FADFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB67DE4520FA112F004FADFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB67DE4420FA112F004FADFB /* ios-swift-physics.app */,
+				FB67DE5820FA1130004FADFB /* ios-swift-physicsTests.xctest */,
+				FB67DE6320FA1130004FADFB /* ios-swift-physicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB67DE4620FA112F004FADFB /* ios-swift-physics */ = {
+			isa = PBXGroup;
+			children = (
+				FB67DE4720FA112F004FADFB /* AppDelegate.swift */,
+				FB67DE4920FA112F004FADFB /* ViewController.swift */,
+				FB67DE4B20FA112F004FADFB /* Main.storyboard */,
+				FB67DE4E20FA1130004FADFB /* Assets.xcassets */,
+				FB67DE5020FA1130004FADFB /* LaunchScreen.storyboard */,
+				FB67DE5320FA1130004FADFB /* Info.plist */,
+			);
+			path = "ios-swift-physics";
+			sourceTree = "<group>";
+		};
+		FB67DE5B20FA1130004FADFB /* ios-swift-physicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB67DE5C20FA1130004FADFB /* ios_swift_physicsTests.swift */,
+				FB67DE5E20FA1130004FADFB /* Info.plist */,
+			);
+			path = "ios-swift-physicsTests";
+			sourceTree = "<group>";
+		};
+		FB67DE6620FA1130004FADFB /* ios-swift-physicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB67DE6720FA1130004FADFB /* ios_swift_physicsUITests.swift */,
+				FB67DE6920FA1130004FADFB /* Info.plist */,
+			);
+			path = "ios-swift-physicsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB67DE4320FA112F004FADFB /* ios-swift-physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB67DE6C20FA1130004FADFB /* Build configuration list for PBXNativeTarget "ios-swift-physics" */;
+			buildPhases = (
+				FB67DE4020FA112F004FADFB /* Sources */,
+				FB67DE4120FA112F004FADFB /* Frameworks */,
+				FB67DE4220FA112F004FADFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-swift-physics";
+			productName = "ios-swift-physics";
+			productReference = FB67DE4420FA112F004FADFB /* ios-swift-physics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB67DE5720FA1130004FADFB /* ios-swift-physicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB67DE6F20FA1130004FADFB /* Build configuration list for PBXNativeTarget "ios-swift-physicsTests" */;
+			buildPhases = (
+				FB67DE5420FA1130004FADFB /* Sources */,
+				FB67DE5520FA1130004FADFB /* Frameworks */,
+				FB67DE5620FA1130004FADFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB67DE5A20FA1130004FADFB /* PBXTargetDependency */,
+			);
+			name = "ios-swift-physicsTests";
+			productName = "ios-swift-physicsTests";
+			productReference = FB67DE5820FA1130004FADFB /* ios-swift-physicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB67DE6220FA1130004FADFB /* ios-swift-physicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB67DE7220FA1130004FADFB /* Build configuration list for PBXNativeTarget "ios-swift-physicsUITests" */;
+			buildPhases = (
+				FB67DE5F20FA1130004FADFB /* Sources */,
+				FB67DE6020FA1130004FADFB /* Frameworks */,
+				FB67DE6120FA1130004FADFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB67DE6520FA1130004FADFB /* PBXTargetDependency */,
+			);
+			name = "ios-swift-physicsUITests";
+			productName = "ios-swift-physicsUITests";
+			productReference = FB67DE6320FA1130004FADFB /* ios-swift-physicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB67DE3C20FA112F004FADFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Salenius Code AB";
+				TargetAttributes = {
+					FB67DE4320FA112F004FADFB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FB67DE5720FA1130004FADFB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FB67DE4320FA112F004FADFB;
+					};
+					FB67DE6220FA1130004FADFB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FB67DE4320FA112F004FADFB;
+					};
+				};
+			};
+			buildConfigurationList = FB67DE3F20FA112F004FADFB /* Build configuration list for PBXProject "ios-swift-physics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB67DE3B20FA112F004FADFB;
+			productRefGroup = FB67DE4520FA112F004FADFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB67DE4320FA112F004FADFB /* ios-swift-physics */,
+				FB67DE5720FA1130004FADFB /* ios-swift-physicsTests */,
+				FB67DE6220FA1130004FADFB /* ios-swift-physicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB67DE4220FA112F004FADFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67DE5220FA1130004FADFB /* LaunchScreen.storyboard in Resources */,
+				FB67DE4F20FA1130004FADFB /* Assets.xcassets in Resources */,
+				FB67DE4D20FA112F004FADFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67DE5620FA1130004FADFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67DE6120FA1130004FADFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB67DE4020FA112F004FADFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67DE4A20FA112F004FADFB /* ViewController.swift in Sources */,
+				FB67DE4820FA112F004FADFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67DE5420FA1130004FADFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67DE5D20FA1130004FADFB /* ios_swift_physicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB67DE5F20FA1130004FADFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67DE6820FA1130004FADFB /* ios_swift_physicsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB67DE5A20FA1130004FADFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB67DE4320FA112F004FADFB /* ios-swift-physics */;
+			targetProxy = FB67DE5920FA1130004FADFB /* PBXContainerItemProxy */;
+		};
+		FB67DE6520FA1130004FADFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB67DE4320FA112F004FADFB /* ios-swift-physics */;
+			targetProxy = FB67DE6420FA1130004FADFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB67DE4B20FA112F004FADFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB67DE4C20FA112F004FADFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB67DE5020FA1130004FADFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB67DE5120FA1130004FADFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB67DE6A20FA1130004FADFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB67DE6B20FA1130004FADFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB67DE6D20FA1130004FADFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847UKKJGYC;
+				INFOPLIST_FILE = "ios-swift-physics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sit.ios-swift-physics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB67DE6E20FA1130004FADFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847UKKJGYC;
+				INFOPLIST_FILE = "ios-swift-physics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sit.ios-swift-physics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB67DE7020FA1130004FADFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847UKKJGYC;
+				INFOPLIST_FILE = "ios-swift-physicsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sit.ios-swift-physicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-swift-physics.app/ios-swift-physics";
+			};
+			name = Debug;
+		};
+		FB67DE7120FA1130004FADFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847UKKJGYC;
+				INFOPLIST_FILE = "ios-swift-physicsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sit.ios-swift-physicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-swift-physics.app/ios-swift-physics";
+			};
+			name = Release;
+		};
+		FB67DE7320FA1130004FADFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847UKKJGYC;
+				INFOPLIST_FILE = "ios-swift-physicsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sit.ios-swift-physicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-swift-physics";
+			};
+			name = Debug;
+		};
+		FB67DE7420FA1130004FADFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847UKKJGYC;
+				INFOPLIST_FILE = "ios-swift-physicsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sit.ios-swift-physicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-swift-physics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB67DE3F20FA112F004FADFB /* Build configuration list for PBXProject "ios-swift-physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67DE6A20FA1130004FADFB /* Debug */,
+				FB67DE6B20FA1130004FADFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB67DE6C20FA1130004FADFB /* Build configuration list for PBXNativeTarget "ios-swift-physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67DE6D20FA1130004FADFB /* Debug */,
+				FB67DE6E20FA1130004FADFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB67DE6F20FA1130004FADFB /* Build configuration list for PBXNativeTarget "ios-swift-physicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67DE7020FA1130004FADFB /* Debug */,
+				FB67DE7120FA1130004FADFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB67DE7220FA1130004FADFB /* Build configuration list for PBXNativeTarget "ios-swift-physicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB67DE7320FA1130004FADFB /* Debug */,
+				FB67DE7420FA1130004FADFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB67DE3C20FA112F004FADFB /* Project object */;
+}
