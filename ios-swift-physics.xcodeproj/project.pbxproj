@@ -14,6 +14,9 @@
 		FB67DE5220FA1130004FADFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB67DE5020FA1130004FADFB /* LaunchScreen.storyboard */; };
 		FB67DE5D20FA1130004FADFB /* ios_swift_physicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67DE5C20FA1130004FADFB /* ios_swift_physicsTests.swift */; };
 		FB67DE6820FA1130004FADFB /* ios_swift_physicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67DE6720FA1130004FADFB /* ios_swift_physicsUITests.swift */; };
+		FB67DE7720FA179A004FADFB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FB67DE7520FA179A004FADFB /* spark.png */; };
+		FB67DE7820FA179A004FADFB /* Explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = FB67DE7620FA179A004FADFB /* Explosion.scnp */; };
+		FB67DE7A20FA184B004FADFB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FB67DE7920FA184B004FADFB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FB67DE6320FA1130004FADFB /* ios-swift-physicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-swift-physicsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB67DE6720FA1130004FADFB /* ios_swift_physicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_swift_physicsUITests.swift; sourceTree = "<group>"; };
 		FB67DE6920FA1130004FADFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB67DE7520FA179A004FADFB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "ios-swift-physics/spark.png"; sourceTree = "<group>"; };
+		FB67DE7620FA179A004FADFB /* Explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = Explosion.scnp; path = "ios-swift-physics/Explosion.scnp"; sourceTree = "<group>"; };
+		FB67DE7920FA184B004FADFB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		FB67DE3B20FA112F004FADFB = {
 			isa = PBXGroup;
 			children = (
+				FB67DE7920FA184B004FADFB /* README.md */,
+				FB67DE7520FA179A004FADFB /* spark.png */,
+				FB67DE7620FA179A004FADFB /* Explosion.scnp */,
 				FB67DE4620FA112F004FADFB /* ios-swift-physics */,
 				FB67DE5B20FA1130004FADFB /* ios-swift-physicsTests */,
 				FB67DE6620FA1130004FADFB /* ios-swift-physicsUITests */,
@@ -229,7 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB67DE7A20FA184B004FADFB /* README.md in Resources */,
 				FB67DE5220FA1130004FADFB /* LaunchScreen.storyboard in Resources */,
+				FB67DE7820FA179A004FADFB /* Explosion.scnp in Resources */,
+				FB67DE7720FA179A004FADFB /* spark.png in Resources */,
 				FB67DE4F20FA1130004FADFB /* Assets.xcassets in Resources */,
 				FB67DE4D20FA112F004FADFB /* Main.storyboard in Resources */,
 			);
